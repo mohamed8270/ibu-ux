@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        iblack: '#0C0A1F',
+        iblue: '#4F3DFF',
+        iwhite: '#FFFFFF',
       },
     },
   },
